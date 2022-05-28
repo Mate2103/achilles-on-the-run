@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,285 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Zeus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 29
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5170573, y: 0.525801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260286c490a59364da63b039f9e8ab1b
+      internalID: 1649673901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 55
+        height: 61
+      alignment: 9
+      pivot: {x: 0.27352718, y: 0.52653813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f797a857c61544fa9b9437fe9385e6
+      internalID: -1941673353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 62
+        width: 80
+        height: 61
+      alignment: 9
+      pivot: {x: 0.18670492, y: 0.52620083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c7a184f51c3424f9654de5f1f76206
+      internalID: 228901835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 62
+        width: 80
+        height: 61
+      alignment: 9
+      pivot: {x: 0.81329477, y: 0.52500993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bf4be2cd467ce48869deb8e4ab7cb0
+      internalID: -941165579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 63
+        width: 55
+        height: 60
+      alignment: 9
+      pivot: {x: 0.7296897, y: 0.5350914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27874c619683c7045af3d03d0064fcf5
+      internalID: 768035066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 78
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245c0cdabde5472428938cffe1796acb
+      internalID: -1597442339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 87
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d49ad3ef34d0646a16f7c48782c1b0
+      internalID: -1108775724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 29
+        height: 61
+      alignment: 9
+      pivot: {x: 0.515882, y: 0.5226514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4884265e8b6c6ab459921b0e35485665
+      internalID: -1325745498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 80
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5010605, y: 0.53128815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0071337ddf122e24ebe49376191c2750
+      internalID: -69362774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 130
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5072329, y: 0.5252237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa44b614d57188458740aac1a67defb
+      internalID: -1935335546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 27
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9951b7123160764490b3340bebf7d0d
+      internalID: -326719679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeus_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 27
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8a3ef529cb1634ab8dc2ed215ba7be
+      internalID: -789917826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +365,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zeus_3: -941165579
+      Zeus_8: -69362774
+      Zeus_5: -1597442339
+      Zeus_9: -1935335546
+      Zeus_11: -789917826
+      Zeus_1: -1941673353
+      Zeus_7: -1325745498
+      Zeus_10: -326719679
+      Zeus_4: 768035066
+      Zeus_6: -1108775724
+      Zeus_2: 228901835
+      Zeus_0: 1649673901
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

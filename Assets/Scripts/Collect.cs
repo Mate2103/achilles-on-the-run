@@ -14,6 +14,9 @@ public class Collect : MonoBehaviour
             Destroy(collision.gameObject);
             coins++;
             coinsText.text =  $"Menekult segely: {coins} drachma";
+
+            GameObject.FindGameObjectWithTag("Zeus").GetComponent<Zeus>().StartBoss();
+            GameObject.FindGameObjectWithTag("Zeus").GetComponent<Zeus>().TakeDamage(52);
         }
     }
 }
