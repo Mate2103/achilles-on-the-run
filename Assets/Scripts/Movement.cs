@@ -55,6 +55,7 @@ public class Movement : MonoBehaviour
             animator.SetTrigger("isMouseDown");
         }
 
+        animator.SetFloat("MouseXInput", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
     }
     private bool IsGrounded()
     {

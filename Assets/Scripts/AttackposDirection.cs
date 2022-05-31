@@ -8,12 +8,12 @@ public class AttackposDirection : MonoBehaviour
     public GameObject player;
     void Update()
     {
-        float dir = Input.GetAxisRaw("Horizontal");
-        if (dir < 0)
+        Vector3 dir = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        if (dir.x < 0)
         {
             transform.position = player.gameObject.transform.position - offset;
         }
-        else if (dir >= 0)
+        else if (dir.x >= 0)
         {
             transform.position = player.gameObject.transform.position + offset;
         }

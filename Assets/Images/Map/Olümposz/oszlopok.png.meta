@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 012dbaf5201aa74408d2ba18640c4226
+guid: ff7a584eeb767df46b39b8f167e3c290
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -104,337 +104,421 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kretastuff_0
+      name: oszlopok_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 148
-        width: 100
-        height: 36
+        x: 31
+        y: 659
+        width: 87
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 950819e0b6f79484a913804d5495949a
-      internalID: 700804569
+      spriteID: db8e27448412b714e8da7c81ec742255
+      internalID: 516966073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kretastuff_1
+      name: oszlopok_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 101
-        width: 44
-        height: 81
+        x: 135
+        y: 659
+        width: 87
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54a2328a6daeae04697a5165c5e85b48
-      internalID: 1643341061
+      spriteID: dc62495a10602e84ebedf4707c52bcc5
+      internalID: -1431508679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kretastuff_2
+      name: oszlopok_2
       rect:
         serializedVersion: 2
-        x: 229
-        y: 151
-        width: 23
-        height: 33
+        x: 250
+        y: 659
+        width: 87
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a19396e80d906e408370aae75cd9446
-      internalID: 73663856
+      spriteID: bc3e34dfc83aa9b4e80cb69d5e835757
+      internalID: 1339029296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kretastuff_3
+      name: oszlopok_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 144
-        width: 103
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a80575ea183ff254d8c6b03e6a050a51
-      internalID: -1266342140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_4
-      rect:
-        serializedVersion: 2
-        x: 439
-        y: 109
-        width: 104
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5aca55f21e0f7e84b8b26f11b97839b1
-      internalID: -254841836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_5
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 38
-        width: 45
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9765920a0bf3d174d98ab203864e3936
-      internalID: 1135109364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_6
-      rect:
-        serializedVersion: 2
-        x: 641
-        y: 43
-        width: 45
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 571a8d46cbda83b40ac60e729cf42d07
-      internalID: 1284170492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_7
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 31
-        width: 150
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 821e236e085d4794a89e807f8af6bdc1
-      internalID: 1562925906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_8
-      rect:
-        serializedVersion: 2
-        x: 925
-        y: 28
-        width: 149
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f17d3790b8dc994cab481dcbf0ccc67
-      internalID: -1105509713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_9
-      rect:
-        serializedVersion: 2
-        x: 1089
-        y: 30
-        width: 159
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56124f7d42939074c855f74b2cbb7ca7
-      internalID: -972237013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_10
-      rect:
-        serializedVersion: 2
-        x: 1254
-        y: 28
-        width: 145
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b0017038a41df84690298e78dcc6250
-      internalID: 413241806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_11
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 108
-        width: 52
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c195fd64621f4a342be7b17dfb2dcf64
-      internalID: 1350969359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_12
-      rect:
-        serializedVersion: 2
-        x: 1442
-        y: 25
-        width: 143
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05b328c2d108a394ca0155d15648e1df
-      internalID: 464367908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_13
-      rect:
-        serializedVersion: 2
-        x: 1593
-        y: 26
-        width: 159
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4b4e431ef790c4aa0d9bf2c113cab2
-      internalID: -1450535538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_14
-      rect:
-        serializedVersion: 2
-        x: 1766
-        y: 25
-        width: 151
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9d10b0b7238ed640b1d4cc3b55342e9
-      internalID: -1391911018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kretastuff_15
-      rect:
-        serializedVersion: 2
-        x: 1939
-        y: 28
-        width: 151
+        x: 363
+        y: 658
+        width: 87
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa925c01bf877141aa873289b260bba
-      internalID: -572720318
+      spriteID: ed8a45fa55e6e7c4e989f92869a5c920
+      internalID: 1376281283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 657
+        width: 87
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f7c2928c1dba47a1de2bf1c2a5280
+      internalID: 1564691379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 567
+        width: 87
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be64f4117909724cbb38dd6cee482c2
+      internalID: 1919589792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 566
+        width: 56
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00edd69aac8c0174297ac3846b3f13ae
+      internalID: -703293146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_7
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 565
+        width: 82
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c77c35b6dce154d96764336b76fb9a
+      internalID: 409949689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41b3fb6ed133e40ae33259b2721df0
+      internalID: -285289762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 354
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9989f0018341b6641a88d0763a7ddac0
+      internalID: 1588670395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 352
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6ac851e6ed1e4f935eb1b32ea177e
+      internalID: 1209459033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 351
+        width: 56
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affd0dc1ae41c6649a7d550ea4a9ec4d
+      internalID: 656011095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 347
+        width: 56
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f16590205f1dd4baedfd8a311497ca
+      internalID: 2073760276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 75
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29e14d23a280594ab6df7817fbb01c6
+      internalID: 2090995737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 77
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38b8518ae22fe4897bd573126ea9ec
+      internalID: -1451899442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 78
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1359e4ca811b0f84e9907e4ef4fe53e2
+      internalID: 1671407228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 77
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1213ec12a64776d4f9f85c2039224554
+      internalID: -2076641497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 74
+        width: 82
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25a3ddb61dc6a048ae2bb86a1ca68eb
+      internalID: -2009307258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_18
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 206
+        width: 82
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b413ed62b117e84c84913588a61787a
+      internalID: 405517857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oszlopok_19
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 49
+        width: 37
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcfabef48557494fb938cc44f50fe7a
+      internalID: 109501955
       vertices: []
       indices: 
       edges: []
@@ -450,22 +534,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      kretastuff_8: -1105509713
-      kretastuff_1: 1643341061
-      kretastuff_3: -1266342140
-      kretastuff_13: -1450535538
-      kretastuff_5: 1135109364
-      kretastuff_10: 413241806
-      kretastuff_2: 73663856
-      kretastuff_14: -1391911018
-      kretastuff_15: -572720318
-      kretastuff_12: 464367908
-      kretastuff_11: 1350969359
-      kretastuff_0: 700804569
-      kretastuff_7: 1562925906
-      kretastuff_4: -254841836
-      kretastuff_9: -972237013
-      kretastuff_6: 1284170492
+      oszlopok_3: 1376281283
+      oszlopok_15: 1671407228
+      oszlopok_19: 109501955
+      oszlopok_0: 516966073
+      oszlopok_10: 1209459033
+      oszlopok_7: 409949689
+      oszlopok_14: -1451899442
+      oszlopok_17: -2009307258
+      oszlopok_16: -2076641497
+      oszlopok_8: -285289762
+      oszlopok_4: 1564691379
+      oszlopok_13: 2090995737
+      oszlopok_2: 1339029296
+      oszlopok_6: -703293146
+      oszlopok_11: 656011095
+      oszlopok_9: 1588670395
+      oszlopok_1: -1431508679
+      oszlopok_18: 405517857
+      oszlopok_12: 2073760276
+      oszlopok_5: 1919589792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
