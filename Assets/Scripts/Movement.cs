@@ -44,7 +44,7 @@ public class Movement : MonoBehaviour
         {
             animator.SetBool("isJumping", true);
         }
-        else if(IsGrounded())
+        else if (IsGrounded())
         {
             animator.SetBool("isJumping", false);
         }
@@ -60,5 +60,10 @@ public class Movement : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+    public Vector3 spawn;
+    public void SetBackToSpawn()
+    {
+        gameObject.transform.position = spawn;
     }
 }

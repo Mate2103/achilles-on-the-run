@@ -18,7 +18,7 @@ public class PlayerHealthBar : MonoBehaviour
     //    slider.maxValue = maxHealth;
     //}
 
-    public Vector3 spawn;
+
     public void TakeHit(float damage)
     {
         CurrentHealt -= damage;
@@ -30,7 +30,7 @@ public class PlayerHealthBar : MonoBehaviour
         if (CurrentHealt <= 0)
         {
             print("dead");
-            gameObject.transform.position = spawn;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().SetBackToSpawn();
             CurrentHealt = MaxHealth;
             slider.value = CurrentHealt;
         }
