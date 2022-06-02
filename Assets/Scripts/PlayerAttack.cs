@@ -20,9 +20,15 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, enemy);
             for (int i = 0; i < enemiesToDamage.Length; i++)
             {
-                enemiesToDamage[i].GetComponent<ArcherBehaviour>().TakeHit(damage);
-                if (SceneManager.GetActiveScene().buildIndex == 3)
+                if (enemiesToDamage[i].tag == "Archer")
+                {
+                    enemiesToDamage[i].GetComponent<ArcherBehaviour>().TakeHit(damage);
+                }
+                else if (enemiesToDamage[i].tag == "Zeus")
+                {
                     enemiesToDamage[i].GetComponent<Zeus>().TakeDamage(damage);
+                }
+
             }
         }
 

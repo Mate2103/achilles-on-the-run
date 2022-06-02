@@ -7,7 +7,7 @@ public class Zeus : MonoBehaviour
 {
     private float health;
     public float maxHealth;
-    private bool isBossFight;
+    private bool isBossFight = false;
     public Slider slider;
 
     public ArrowBehaviour Lightning1;
@@ -17,11 +17,16 @@ public class Zeus : MonoBehaviour
     public Transform LaunchOffset2;
 
     private Animator animator;
+
+    private bool canStart = false;
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
         slider.GetComponentInParent<SpriteRenderer>().enabled = false;
         slider.gameObject.SetActive(false);
+        text.SetActive(false);
+        text.transform.GetChild(0).gameObject.SetActive(false);
+
         health = maxHealth;
         slider.value = health;
         slider.maxValue = maxHealth;
@@ -29,22 +34,40 @@ public class Zeus : MonoBehaviour
     void Update()
     {
         animator.SetFloat("Health", health);
+        if (health < maxHealth && !isBossFight)
+        {
+            StartBoss();
+        }
+    }
+    public GameObject text;
+    public void WriteText()
+    {
+        if (!isBossFight)
+        {
+            text.SetActive(true);
+            text.transform.GetChild(0).gameObject.SetActive(true);
+            canStart = true;
+        }
     }
     public void TakeDamage(float damage)
     {
-        if (isBossFight)
+        if (canStart || isBossFight)
         {
             health -= damage;
             slider.value = health;
             if (health <= 0) ZeusDeath();
+            canStart = false;
         }
     }
     public void ZeusDeath()
     {
-        
+
     }
     public void StartBoss()
     {
+        text.SetActive(false);
+        text.transform.GetChild(0).gameObject.SetActive(false);
+
         animator.SetBool("isBossFight", true);
         isBossFight = true;
 
