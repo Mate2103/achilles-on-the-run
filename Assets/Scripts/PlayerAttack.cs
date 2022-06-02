@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class PlayerAttack : MonoBehaviour
             for (int i = 0; i < enemiesToDamage.Length; i++)
             {
                 enemiesToDamage[i].GetComponent<ArcherBehaviour>().TakeHit(damage);
-                enemiesToDamage[i].GetComponent<Zeus>().TakeDamage(damage);
+                if (SceneManager.GetActiveScene().buildIndex == 3)
+                    enemiesToDamage[i].GetComponent<Zeus>().TakeDamage(damage);
             }
         }
 
