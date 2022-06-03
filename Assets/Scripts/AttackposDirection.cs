@@ -8,7 +8,7 @@ public class AttackposDirection : MonoBehaviour
     public GameObject player;
     void Update()
     {
-        Vector3 dir = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector3 dir = Camera.main.ViewportToScreenPoint(Input.mousePosition);
         if (dir.x < 0)
         {
             transform.position = player.gameObject.transform.position - offset;

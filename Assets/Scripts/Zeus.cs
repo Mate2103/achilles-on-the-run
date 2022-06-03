@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 
 public class Zeus : MonoBehaviour
 {
@@ -55,13 +57,18 @@ public class Zeus : MonoBehaviour
         {
             health -= damage;
             slider.value = health;
-            if (health <= 0) ZeusDeath();
+            if (health <= 0) StartCoroutine(ZeusDeath());
             canStart = false;
         }
     }
-    public void ZeusDeath()
+    public IEnumerator ZeusDeath()
     {
-
+        Destroy(gameObject);
+        isBossFight = false;
+        print("s");
+        yield return new WaitForSecondsRealtime(5.0f);
+        print("s");
+        SceneManager.LoadScene(4);
     }
     public void StartBoss()
     {

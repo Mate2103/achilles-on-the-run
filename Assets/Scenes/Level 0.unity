@@ -5457,7 +5457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpSpeed: 11
+  jumpSpeed: 13
   jumpableGround:
     serializedVersion: 2
     m_Bits: 2147483648
