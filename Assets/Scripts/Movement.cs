@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     private BoxCollider2D coll;
     [SerializeField] private LayerMask jumpableGround;
     private Animator animator;
+
+    public Story isGame;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,8 +26,14 @@ public class Movement : MonoBehaviour
         float dir = Input.GetAxisRaw("Horizontal");
 
         //determines if the player is moving
-        if (rb.velocity.x + dir * moveSpeed != rb.velocity.x) animator.SetBool("isMoving", true);
-        else animator.SetBool("isMoving", false);
+        if (rb.velocity.x + dir * moveSpeed != rb.velocity.x)
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
 
         //if the player moves, it sets the parameter to the animator
         if (dir != 0) animator.SetFloat("XInput", dir);

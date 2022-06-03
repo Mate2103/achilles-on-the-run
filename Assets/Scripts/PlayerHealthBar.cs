@@ -6,6 +6,7 @@ public class PlayerHealthBar : MonoBehaviour
     public Slider slider;
     public float MaxHealth;
     private float CurrentHealt;
+
     void Start()
     {
         //slider.gameObject.active = true;
@@ -21,7 +22,7 @@ public class PlayerHealthBar : MonoBehaviour
 
     public void TakeHit(float damage)
     {
-        CurrentHealt -= damage;
+            CurrentHealt -= damage;
 
         
         slider.value = CurrentHealt;

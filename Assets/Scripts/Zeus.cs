@@ -57,18 +57,19 @@ public class Zeus : MonoBehaviour
         {
             health -= damage;
             slider.value = health;
-            if (health <= 0) StartCoroutine(ZeusDeath());
+            if (health <= 0) { StartCoroutine(ZeusDeath()); }
             canStart = false;
         }
     }
-    public IEnumerator ZeusDeath()
+    IEnumerator ZeusDeath()
     {
-        Destroy(gameObject);
         isBossFight = false;
+        CancelInvoke("Shoot");
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        print("d");
+        yield return new WaitForSeconds(3.0f);
         print("s");
-        yield return new WaitForSecondsRealtime(5.0f);
-        print("s");
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void StartBoss()
     {
@@ -85,17 +86,20 @@ public class Zeus : MonoBehaviour
     }
     public void Shoot()
     {
-        if (health > maxHealth / 2)
-            Instantiate(Lightning1, LaunchOffset.position, transform.rotation);
-        else if (health <= maxHealth / 2)
+        if (isBossFight)
         {
-            Instantiate(Lightning2, LaunchOffset.position, transform.rotation);
-            Lightning2.fv = new Vector3(21, 3.2f, 0);
-            Lightning2.GetComponent<SpriteRenderer>().flipX = true;
+            if (health > maxHealth / 2)
+                Instantiate(Lightning1, LaunchOffset.position, transform.rotation);
+            else if (health <= maxHealth / 2)
+            {
+                Instantiate(Lightning2, LaunchOffset.position, transform.rotation);
+                Lightning2.fv = new Vector3(21, 3.2f, 0);
+                Lightning2.GetComponent<SpriteRenderer>().flipX = true;
 
-            Instantiate(Lightning2, LaunchOffset2.position, transform.rotation);
-            Lightning2.fv = new Vector3(-21, 3.2f, 0);
-            Lightning2.GetComponent<SpriteRenderer>().flipX = false;
+                Instantiate(Lightning2, LaunchOffset2.position, transform.rotation);
+                Lightning2.fv = new Vector3(-21, 3.2f, 0);
+                Lightning2.GetComponent<SpriteRenderer>().flipX = false;
+            }
         }
     }
 }

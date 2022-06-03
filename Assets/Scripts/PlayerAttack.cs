@@ -26,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
                 }
                 else if (enemiesToDamage[i].tag == "Zeus")
                 {
-                    enemiesToDamage[i].GetComponent<Zeus>().TakeDamage(20);
+                    enemiesToDamage[i].GetComponent<Zeus>().TakeDamage(damage);
                 }
 
             }
